@@ -38,4 +38,4 @@ This simple calculation provides drivers with a practical guideline for determin
 
 ### Screenshot
 
-![Ethanol or Gasoline](https://raw.githubusercontent.com/mfbasso/rust-slint-ethanol-or-gasoline/main/screenshot.png)
+![Ethanol or Gasoline](screenshot.png)
