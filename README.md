@@ -1,6 +1,6 @@
 # Ethanol or gasoline
 
-A simple app made with [Rust](https://rust.dev) and [Slint](https://slint.rs) to help you decide between ethanol or gasoline.
+A simple app made with [Rust](https://www.rust-lang.org/) and [Slint](https://slint.rs) to help you decide between ethanol or gasoline.
 
 ## How to run
 
