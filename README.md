@@ -1,40 +1,36 @@
-# Slint Rust Template
+# Ethanol or gasoline
 
-A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
+A simple app made with [Rust](https://rust.dev) and [Slint](https://slint.rs) to help you decide between ethanol or gasoline.
 
-## About
+## How to run
 
-This template helps you get started developing a Rust application with Slint as toolkit
-for the user interface. It demonstrates the integration between the `.slint` UI markup and
-Rust code, how to trigger react to callbacks, get and set properties and use basic widgets.
+```bash
+$ git clone git@github.com:mfbasso/rust-slint-ethanol-or-gasoline.git
+$ cd ethanol-or-gasoline
+$ cargo run
+```
 
-## Usage
+## How to decide between ethanol or gasoline?
 
-1. Install Rust by following the [Rust Getting Started Guide](https://www.rust-lang.org/learn/get-started).
-   Once this is done, you should have the ```rustc``` compiler and the ```cargo``` build system installed in your path.
-2. Install [`cargo-generate`](https://github.com/cargo-generate/cargo-generate)
-    ```
-    cargo install cargo-generate
-    ```
-3. Set up a sample project with this template
-    ```
-    cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
-    cd my-project
-    ```
-3. Build with cargo
-    ```
-    cargo build
-    ```
-4. Run the application binary
-     ```
-     cargo run
-     ```
+When it comes to deciding whether alcohol or gasoline is the more economical choice for fueling vehicles, a straightforward calculation can provide the answer.
 
-We recommend using an IDE for development, along with our [LSP-based IDE integration for `.slint` files](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md). You can also load this project directly in [Visual Studio Code](https://code.visualstudio.com) and install our [Slint extension](https://marketplace.visualstudio.com/items?itemName=Slint.slint).
+To reach a conclusion, one simply needs to divide the price per liter of alcohol by the price per liter of gasoline. If the result is less than or equal to 0.7, then alcohol is the recommended fuel. On the other hand, if the value is greater than 0.7, it is advisable to opt for gasoline.
 
-## Next Steps
+Let's explore some examples of both scenarios to illustrate the decision-making process.
 
-We hope that this template helps you get started and you enjoy exploring making user interfaces with Slint. To learn more
-about the Slint APIs and the `.slint` markup language check out our [online documentation](https://slint.dev/docs).
+### Example 1
 
-Don't forget to edit this README to replace it by yours
+Price of alcohol per liter: $1.50
+Price of gasoline per liter: $2.00
+Calculation: $1.50 / $2.00 = 0.75
+
+Decision: Since 0.75 is greater than 0.7, gasoline is the recommended choice.
+
+### Example 2:
+
+Price of alcohol per liter: $1.00
+Price of gasoline per liter: $1.50
+Calculation: $1.00 / $1.50 = 0.67
+
+Decision: With a result of 0.67, which is less than 0.7, alcohol is the preferred fuel.
+This simple calculation provides drivers with a practical guideline for determining the most cost-effective fuel option based on current market prices. Whether it's choosing alcohol or gasoline, this decision-making process helps optimize fuel expenses and ensures efficient vehicle operation.
