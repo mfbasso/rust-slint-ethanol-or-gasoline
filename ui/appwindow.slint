@@ -1,0 +1,65 @@
+import { Button, LineEdit, GroupBox} from "std-widgets.slint";
+
+component CalculateButton inherits Button {
+    text: "Calculate";
+    primary: true;
+}
+
+export component AppWindow inherits Window {
+    title: "Ethanol or gasoline?";
+    callback calculate(string, string);
+    in property <string> what-should-i-use: "";
+
+    background: #313e50;
+    GridLayout {
+        padding: 50px;
+        spacing: 25px;
+        Row {
+            Text {
+                text: "Ethanol or gasoline?";
+                color: #f2f2f2;
+                horizontal-alignment: center;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+
+        Row {
+            GridLayout {
+                spacing: 10px;
+                Row {
+                    ethanol-value := LineEdit {
+                        horizontal-alignment: center;
+                        font-size: 16px;
+                        placeholder-text: "Ethanol value";
+                    }
+                }
+                Row {
+                    gas-value := LineEdit {
+                        horizontal-alignment: center;
+                        font-size: 16px;
+                        placeholder-text: "Gas value";
+                    }
+                }
+            }
+        }
+
+        Row {
+            CalculateButton {
+                clicked => {
+                    calculate(ethanol-value.text, gas-value.text);
+                }
+            }
+        }
+
+        Row {
+            Text {
+                text: what-should-i-use;
+                color: #f2f2f2;
+                horizontal-alignment: center;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
