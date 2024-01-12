@@ -20,17 +20,18 @@ Let's explore some examples of both scenarios to illustrate the decision-making 
 
 ### Example 1
 
-Price of alcohol per liter: $1.50
-Price of gasoline per liter: $2.00
-Calculation: $1.50 / $2.00 = 0.75
+- Price of alcohol per liter: $1.50
+- Price of gasoline per liter: $2.00
+- Calculation: $1.50 / $2.00 = 0.75
 
 Decision: Since 0.75 is greater than 0.7, gasoline is the recommended choice.
 
 ### Example 2:
 
-Price of alcohol per liter: $1.00
-Price of gasoline per liter: $1.50
-Calculation: $1.00 / $1.50 = 0.67
+- Price of alcohol per liter: $1.00
+- Price of gasoline per liter: $1.50
+- Calculation: $1.00 / $1.50 = 0.67
 
 Decision: With a result of 0.67, which is less than 0.7, alcohol is the preferred fuel.
+
 This simple calculation provides drivers with a practical guideline for determining the most cost-effective fuel option based on current market prices. Whether it's choosing alcohol or gasoline, this decision-making process helps optimize fuel expenses and ensures efficient vehicle operation.
